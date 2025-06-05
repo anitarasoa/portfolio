@@ -173,7 +173,10 @@ export const Work: FC<WorkProps> = ({ workRef }) => {
                   </Text>
                   <Flex wrap="wrap" gap={4}>
                     {technologies.map((technology) => (
-                      <Text color={{ _dark: "gray78", _light: "gray700" }}>
+                      <Text
+                        key={technology}
+                        color={{ _dark: "gray78", _light: "gray700" }}
+                      >
                         {technology}
                       </Text>
                     ))}

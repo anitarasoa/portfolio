@@ -5,11 +5,13 @@ import {
   Flex,
   Heading,
   HStack,
+  Image,
   Link,
   Text,
 } from "@chakra-ui/react";
 import { FC, RefObject } from "react";
 import { FaArrowRight, FaGithub } from "react-icons/fa";
+import anitaImage from "../assets/anita.jpg";
 
 type profileProps = {
   profileRef: RefObject<HTMLDivElement | null>;
@@ -101,14 +103,13 @@ export const Profile: FC<profileProps> = ({
           </Link>
         </HStack>
       </Box>
-      <Box
-        alignSelf={"center"}
-        w={{ base: "100%", md: "600px" }}
-        h={{ base: "400px", sm: "600px", md: "700px" }}
-        bg={{ _light: "gray200", _dark: "gray78" }}
-        borderRadius={"16px"}
-        p="40px"
-      >
+      <Box>
+        <Image
+          src={anitaImage}
+          w={{ base: "100%", md: "600px" }}
+          h={{ base: "400px", sm: "600px", md: "700px" }}
+          borderRadius={"16px"}
+        />
       </Box>
     </Flex>
   </Container>
