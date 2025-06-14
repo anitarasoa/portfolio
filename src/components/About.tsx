@@ -32,8 +32,7 @@ export const About: FC<AboutProps> = ({ aboutRef }) => {
             fontSize={{ base: "24px", md: "32px" }}
             color={{ _light: "gray800", _dark: "white" }}
           >
-            I am a frontend developer based in Madagascar. Has Software
-            Engineering background.
+            I am a frontend developer based in Madagascar.
           </Heading>
           <Text
             textStyle="paragraph"
@@ -41,10 +40,10 @@ export const About: FC<AboutProps> = ({ aboutRef }) => {
             color={{ _dark: "gray78", _light: "gray700" }}
             pt={"16px"}
           >
-            I am a frontend developer based in Madagascar looking for exciting
-            opportunities. Has Software Engineering background. Likes to focus
-            on accessibility, reusability and maintainability when developing. I
-            am always passionate and curious to learn more when it comes to new
+            I am a frontend developer with 4 years of experience looking for
+            exciting opportunities. I like to focus on accessibility,
+            reusability and maintainability when developing. I am always
+            passionate and curious to learn more when it comes to new
             technologies and creative coding.
           </Text>
           <Text
@@ -53,7 +52,7 @@ export const About: FC<AboutProps> = ({ aboutRef }) => {
             color={{ _dark: "gray78", _light: "gray700" }}
             pt={"16px"}
           >
-            Currently, I'm a mid-level Front-End Engineer at 90poe. I contribute
+            Currently, I'm a mid-level frontend engineer at 90poe. I contribute
             to the creation and maintenance of UI components that power 90poe's
             frontend, ensuring our platform meets web accessibility standards
             and best practices to deliver an inclusive user experience. Also
