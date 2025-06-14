@@ -10,7 +10,7 @@ export const About: FC<AboutProps> = ({ aboutRef }) => {
     <Container pt="104px" ref={aboutRef}>
       <Flex
         as="section"
-        pb={{ base: "40px", md: "420px" }}
+        pb={{ base: "40px", md: "200px" }}
         flexDir={{ base: "column", md: "row" }}
         justify={"space-between"}
       >
