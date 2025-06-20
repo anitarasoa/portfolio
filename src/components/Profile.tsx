@@ -43,8 +43,8 @@ export const Profile: FC<profileProps> = ({
           lineHeight={{ base: "100%", md: "90%" }}
           color={{ _light: "gray800", _dark: "white" }}
         >
-          <Text>Hi I'am</Text>
-          <Text>Anita Rasoa.</Text>
+          <Text>Hi, I'am</Text>
+          <Text>Anita Rasoa</Text>
         </Heading>
         <Text
           textStyle="paragraph"

@@ -15,7 +15,7 @@ export default [
     technologies: [
       "React",
       "TypeScript",
-      "GraphQl",
+      "GraphQL",
       "Apollo Client",
       "Ant Design",
       "Styled Component",
@@ -39,7 +39,7 @@ export default [
     technologies: [
       "React",
       "TypeScript",
-      "GraphQl",
+      "GraphQL",
       "Apollo Client",
       "Ant Design",
       "Styled Component",
